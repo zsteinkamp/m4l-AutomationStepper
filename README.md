@@ -2,7 +2,7 @@
 
 This is a Max For Live device that will turn continuous automation input into stair-stepped output.
 
-For example, you can map an LFO outputting a sine wave to this device's input, then configure the device to generate steps at a tempo-synced or free time interval.
+For example, you can map an LFO outputting a sine wave to this device's input, then configure the device to generate steps at a tempo-synced or free time interval, automating up to 8 other parameters.
 
 Here is an image AutomationStepper turning a sine wave into 1/8 note steps.
 ![How it Looks](images/device.png)
@@ -18,6 +18,8 @@ Here is an image AutomationStepper turning a sine wave into 1/8 note steps.
 ## Usage
 
 Usually, you would map a MIDI controller or automation source to `Input`. Then choose a step frequency (either in Hz or in note values). You can adjust the smoothing to create a portamento-like effect as the step moves from one value to another.
+
+Use the "Map" button to map the stepped output to another parameter. Click the `[=]` button in the upper left to reveal additional automation destination slots.
 
 ## TODO
 
