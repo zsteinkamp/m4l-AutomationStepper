@@ -28,3 +28,7 @@ Use the "Map" button to map the stepped output to another parameter. Click the `
 ## Contributing
 
 I'd love it if others extended this device. If you would like to contribute, simply fork this repo, make your changes, and open a pull request and I'll have a look.
+
+## More
+
+I have many other free and open-source devices available. Visit https://steinkamp.us/music-tools/ to see them all.
